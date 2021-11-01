@@ -53,16 +53,19 @@ if _near {
 		ds_list_add(checked_entity, other.id);
 		global.env_text += "무언가가 가까이에 있다.\n";
 		}
-		
+	if !targeted {
 	_nearest = collision_circle(x ,y, (env_max_length / 2), Obj_Entity, false, true)
+	} else {
+	_nearest = instance_nearest(x, y, Obj_Zombie)
+	}
 	if _nearest && scan_cool_time = 0 {
 		scan_cool_time = 30;
 		var dir = (point_direction(x, y, _nearest.x, _nearest.y) - 90) div 30;
 		
 		if !targeted {
-			global.env_text += "무언가가 매우 가까이에 있다. " + string(dir + 1) + " 방향이다.\n";
+			global.env_text += "무언가가 매우 가까이에 있다. " + string(13 - dir) + " 방향이다.\n";
 		} else {
-			global.env_text += "당신은 추격받고 있다! " + string(dir) + " 방향이다!\n";
+			global.env_text += "당신은 추격받고 있다! " + string(6 - dir) + " 방향이다!\n";
 		}
 		switch(_nearest.ins_type) {
 
