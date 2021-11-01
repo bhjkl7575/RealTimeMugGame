@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Sprite2",
+    "path": "sprites/Sprite2/Sprite2.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -18,7 +21,11 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [],
-  "properties": [],
+  "properties": [
+    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"zone_type","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"zone_loudness","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":2,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"zone_name","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [],
   "parent": {
     "name": "Real_Time_Mud",

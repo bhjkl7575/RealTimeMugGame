@@ -24,13 +24,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"ins_name","path":"objects/Obj_Entity/Obj_Entity.yy",},"objectId":{"name":"Obj_Entity","path":"objects/Obj_Entity/Obj_Entity.yy",},"value":"좀비","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"ins_type","path":"objects/Obj_Entity/Obj_Entity.yy",},"objectId":{"name":"Obj_Entity","path":"objects/Obj_Entity/Obj_Entity.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"ins_speed","path":"objects/Obj_Entity/Obj_Entity.yy",},"objectId":{"name":"Obj_Entity","path":"objects/Obj_Entity/Obj_Entity.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"ins_type","path":"objects/Obj_Entity/Obj_Entity.yy",},"objectId":{"name":"Obj_Entity","path":"objects/Obj_Entity/Obj_Entity.yy",},"value":"monster","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"ins_speed","path":"objects/Obj_Entity/Obj_Entity.yy",},"objectId":{"name":"Obj_Entity","path":"objects/Obj_Entity/Obj_Entity.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"it_can_target","path":"objects/Obj_Entity/Obj_Entity.yy",},"objectId":{"name":"Obj_Entity","path":"objects/Obj_Entity/Obj_Entity.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Real_Time_Mud",
